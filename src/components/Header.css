@@ -1,0 +1,21 @@
+.header-cont nav{
+    background-color: #16335b;
+}
+.header-cont .search-bar{
+    position: absolute;
+    right: 30px;
+}
+@media screen and (min-width: 2000px) and (max-width: 2560px){
+    .header-cont nav{
+        background-color: #16335b;
+    }
+    .header-cont .main{
+        font-size: 52px !important;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .header-cont .search-bar{
+        position: static;
+        left: 0px;
+    }
+}
